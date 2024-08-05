@@ -30,7 +30,7 @@ TypeFlow is a speed typing practice web application that offers customizable typ
 ## Setup and Installation
 
 1. Clone the repository:
-    git clone https://github.com/your-username/typeflow.git
+    git clone https://github.com/bn-salah05/speed_typing_practice.git
 
 2. Set up a local web server (e.g., Apache, Nginx) with PHP support.
 
