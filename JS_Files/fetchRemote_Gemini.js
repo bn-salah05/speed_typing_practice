@@ -1,10 +1,13 @@
+require('dotenv').config();
+const apiKey = process.env.API_KEY;
+
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { displayText } from "./displayRefText.js";
 
 let geminiText = "";
 
 export default function fetchRemote_Gemini(topic, difficulty) {
-    const genAI = new GoogleGenerativeAI("AIzaSyDXJR9jKGZC5a0YLvJyyM7ifJHDMjVUoBE");
+    const genAI = new GoogleGenerativeAI(apikey);
 //
     //AIzaSyDXJR9jKGZC5a0YLvJyyM7ifJHDMjVUoBE
     //AIzaSyAv98GGP8Q6yvaWOanJSchVbvRlggEejL8
